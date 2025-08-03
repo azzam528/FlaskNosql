@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beranda</title>
+</head>
+<style>
+    button {
+        background-color: rgb(0, 68, 255);
+        /* warna biru aqua */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    button:hover {
+        background-color: #0097a7;
+        /* warna lebih gelap saat hover */
+    }
+</style>
+
+<body>
+    <h2 style="text-align:center;">Selamat Datang di Sistem Mahasiswa Polman</h2>
+    <div style="text-align:center;">
+        <a href="/data" style="text-decoration: none;">
+            <button type="button">Lihat data</button>
+        </a>
+        | <a href="/tambah" style="text-decoration: none;">
+            <button type="button">Tambah Data</button>
+        </a>
+    </div>
+</body>
+
+</html>
